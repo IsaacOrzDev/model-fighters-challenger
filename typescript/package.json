@@ -1,0 +1,6 @@
+{
+  "name": "models-character-controller", "version": "0.1.0", "private": true,
+  "type": "module", "engines": { "node": ">=22.18" },
+  "scripts": { "check": "tsc --noEmit && prettier --check '*.ts' 'test/*.ts' && node main.ts --help && node --test test/*.test.ts", "format": "prettier --write '*.ts' 'test/*.ts'" },
+  "devDependencies": { "@types/node": "^22.18.0", "typescript": "^5.9.0", "prettier": "^3.6.0" }
+}

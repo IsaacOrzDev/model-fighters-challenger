@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+secrets/
+player-instructions*.txt
+*.log
+node_modules/
+target/
